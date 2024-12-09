@@ -4,6 +4,7 @@ function AboutUs() {
   return (
     <div
       style={{
+        color:"white",
         textAlign: "center",
         paddingTop: "300px",
       }}

@@ -1,0 +1,27 @@
+.colur {
+
+    color: white;
+    background-color: #0d0101 !important;
+}
+
+.css-cy7rkm-MuiAccordion-heading {
+    color: white;
+    background-color: #0d0101 !important;
+
+}
+
+.css-7iurs7-MuiAccordionSummary-content {
+    color: white;
+    background-color: #0d0101;
+}
+.css-7iurs7-MuiAccordionSummary-content.Mui-expanded{
+    background-color: #0d0101;
+    margin: 5px;
+}
+.css-jineix-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+    min-height: 97px;
+    background-color: #0d0101;
+}
+.MuiButtonBase-root{
+    background-color: #0d0101;
+}

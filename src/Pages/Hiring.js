@@ -1,16 +1,17 @@
 import React from "react";
 
-function Home() {
+function Hiring() {
   return (
     <div
     style={{
-      textAlign: "center",
+        color:"white",
+        textAlign: "center",
       paddingTop: "300px",
     }}
     >
-      <h1>Home</h1>
+      <h1>Hiring</h1>
     </div>
   );
 }
 
-export default Home;
+export default Hiring;

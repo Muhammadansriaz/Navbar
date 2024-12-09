@@ -1,16 +1,17 @@
 import React from "react";
 
-function ContactUs() {
+function Features() {
   return (
     <div
     style={{
+      color:"white",
       textAlign: "center",
       paddingTop: "300px",
     }}
     >
-      <h1>Contact Us</h1>
+      <h1>Features</h1>
     </div>
   );
 }
 
-export default ContactUs;
+export default Features;

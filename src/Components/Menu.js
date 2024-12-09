@@ -14,13 +14,13 @@ function Menu() {
             </NavLink>
           </li>
           <li className="NavbarElement">
-            <NavLink className="link" to="/about-us">
-              About Us
+            <NavLink className="link"to="/features">
+              Features
             </NavLink>
           </li>
           <li className="NavbarElement">
-            <NavLink className="link"to="/contact-us">
-              Contact Us
+            <NavLink className="link" to="/about-us">
+              About Us
             </NavLink>
           </li>
           <li className="NavbarElement">

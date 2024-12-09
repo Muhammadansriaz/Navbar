@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
+import Logo from "./Images/Logo.png"
+
 import { ImCross } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -15,7 +17,7 @@ function Navbar({clicked, isClicked}) {
       <ul className="NavbarWrapper">
         <li className="NavLogo">
           <Link style={{textDecoration:'none', color:'white'}} to="/">
-            Navbar
+            <img src={Logo}/>
           </Link>
         </li>
         <li className="NavElements">
@@ -24,27 +26,28 @@ function Navbar({clicked, isClicked}) {
           </NavLink>
         </li>
         <li className="NavElements">
+          <NavLink className="Link" to="/features">
+            Features
+          </NavLink>
+        </li>
+        <li className="NavElements">
           <NavLink className="Link" to="/about-us">
             About Us
           </NavLink>
         </li>
         <li className="NavElements">
-          <NavLink className="Link" to="/contact-us">
-            Contact Us
+          <NavLink className="Link" to="/Hiring">
+            Hiring
           </NavLink>
         </li>
 
-        <li className="NavButton">
-          <NavLink className="Link" to="/sign-up">
-            Sign Up
-          </NavLink>
-        </li>
+        
         <li
           className="NavElements"
-          style={{ float: "right", margin: "-8px 2px 1px 2px" }}
+          style={{ float: "right", margin: "-8px 2px 1px 2px",border:"1px solid #ff6600", borderRadius:"50px" }}
         >
           <NavLink className="Link" to="/sign-in">
-            Sign In
+            Get Started
           </NavLink>
         </li>
       </ul>
